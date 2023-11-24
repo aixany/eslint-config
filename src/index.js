@@ -1,47 +1,31 @@
 import antfu from '@antfu/eslint-config'
-import base from './rules/base.js'
-import nuxt from './rules/nuxt.js'
+import style from './rules/style.js'
+import script from './rules/script.js'
 import vue from './rules/vue.js'
-import tailwindcss from './rules/tailwindcss.js'
+import nuxt from './rules/nuxt.js'
 
-const woodawn = (...args) => {
+const woodawn = (options, ...eslintConfig) => {
+  const rules = []
+
+  // 是否是vue项目
+  if (options.vue ?? true) {
+    rules.push(vue)
+  }
+
+  // 是否是 nuxt 项目
+  if (options.nuxt ?? true) {
+    rules.push(nuxt)
+  }
+
   return antfu(
     {}, // This must be the first argument
     // From the second arguments they are ESLint Flat Configs
     // you can have multiple configs
-    base,
-    tailwindcss,
-    ...args,
+    style,
+    script,
+    ...rules,
+    ...eslintConfig,
   )
 }
 
-const woovue = (...args) => {
-  return antfu(
-    {}, // This must be the first argument
-    // From the second arguments they are ESLint Flat Configs
-    // you can have multiple configs
-    base,
-    vue,
-    tailwindcss,
-    ...args,
-  )
-}
-
-const woonuxt = (...args) => {
-  return antfu(
-    {}, // This must be the first argument
-    // From the second arguments they are ESLint Flat Configs
-    // you can have multiple configs
-    base,
-    vue,
-    nuxt,
-    tailwindcss,
-    ...args,
-  )
-}
-
-export {
-  woodawn, // 基本项目
-  woovue, // vue 项目
-  woonuxt, // nuxt 项目
-}
+export default woodawn

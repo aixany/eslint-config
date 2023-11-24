@@ -7,7 +7,6 @@ export default [
     files: ['**/*.{js,ts,jsx,tsx,cts,vue}'],
     rules: {
       'no-undef': 'off',
-      '@typescript-eslint/no-unused-vars': 'warn',
     },
   },
   {
