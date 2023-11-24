@@ -3,6 +3,11 @@
 ## usage
 
 
+install
+
+https://docs.npmjs.com/cli/v10/configuring-npm/package-json#local-paths
+
+
 ```js
 // eslint.config.js
 import { nuxt, stefanobartoletti, tailwind } from '@stefanobartoletti/eslint-config'
@@ -15,7 +20,6 @@ export default stefanobartoletti(
   },
 )
 ```
-
 
 ##
 
