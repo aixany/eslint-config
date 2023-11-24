@@ -2,10 +2,8 @@ import { FlatCompat } from '@eslint/eslintrc'
 
 const compat = new FlatCompat()
 
-const tailwind = [
+export default [
   ...compat.config({
     extends: ['plugin:tailwindcss/recommended'],
   }),
 ]
-
-export default tailwind

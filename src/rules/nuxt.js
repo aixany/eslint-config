@@ -1,6 +1,6 @@
 // https://github.com/nuxt/eslint-config/blob/main/packages/eslint-config/index.js
 
-const sbConfigNuxt = [
+export default [
 
   // Nuxt can use auto-imports, eslint should not throw errors for undefined variables.
   {
@@ -27,5 +27,3 @@ const sbConfigNuxt = [
     },
   },
 ]
-
-export default sbConfigNuxt
