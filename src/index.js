@@ -4,7 +4,19 @@ import nuxt from './rules/nuxt.js'
 import vue from './rules/vue.js'
 import tailwindcss from './rules/tailwindcss.js'
 
-const woodawn = (...args) => {
+const woovue = (...args) => {
+  return antfu(
+    {}, // This must be the first argument
+    // From the second arguments they are ESLint Flat Configs
+    // you can have multiple configs
+    base,
+    vue,
+    tailwindcss,
+    ...args,
+  )
+}
+
+const woonuxt = (...args) => {
   return antfu(
     {}, // This must be the first argument
     // From the second arguments they are ESLint Flat Configs
@@ -17,4 +29,7 @@ const woodawn = (...args) => {
   )
 }
 
-export default woodawn
+export {
+  woovue,
+  woonuxt,
+}
