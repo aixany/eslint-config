@@ -60,7 +60,7 @@ packages:
       '@typescript-eslint/parser': 6.12.0(eslint@8.54.0)(typescript@5.3.2)
       eslint: 8.54.0
       eslint-config-flat-gitignore: 0.1.1
-      eslint-plugin-antfu: 1.0.10(eslint@8.54.0)
+      eslint-plugin-antfu: 1.0.11(eslint@8.54.0)
       eslint-plugin-eslint-comments: 3.2.0(eslint@8.54.0)
       eslint-plugin-i: 2.29.0(@typescript-eslint/parser@6.12.0)(eslint@8.54.0)
       eslint-plugin-jsdoc: 46.9.0(eslint@8.54.0)
@@ -881,8 +881,8 @@ packages:
       - supports-color
     dev: false
 
-  /eslint-plugin-antfu@1.0.10(eslint@8.54.0):
-    resolution: {integrity: sha512-zwEdi6DJM+Di2CZNBDyJAU3zwCPyPd/j2zKONmXfzvDQKeMLGje7qYPWeIChlEuy3bFYX52UFJlPKZ0qyLDuqA==}
+  /eslint-plugin-antfu@1.0.11(eslint@8.54.0):
+    resolution: {integrity: sha512-m+RWX/D+Ep9xU7VTDYKG4UmDUV9bOa5/SU/fUwWcRyYGbEy3lgxlnhuxv+Zw5Ca/RlcabCFt+vxh62wo1RI/6w==}
     peerDependencies:
       eslint: '*'
     dependencies:

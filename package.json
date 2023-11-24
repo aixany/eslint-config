@@ -4,7 +4,7 @@
   "version": "0.0.1",
   "packageManager": "pnpm@8.10.5",
   "description": "",
-  "author": "Stefano Bartoletti (https://github.com/stefanobartoletti/)",
+  "author": "",
   "license": "MIT",
   "repository": "woodawn/eslint-config",
   "keywords": [
@@ -28,7 +28,6 @@
   },
   "dependencies": {
     "@antfu/eslint-config": "^2.1.0",
-    "eslint-plugin-markdownlint": "^0.5.0",
     "eslint-plugin-tailwindcss": "^3.13.0"
   },
   "devDependencies": {

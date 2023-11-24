@@ -2,7 +2,6 @@ import antfu from '@antfu/eslint-config'
 import base from './rules/base.js'
 import nuxt from './rules/nuxt.js'
 import vue from './rules/vue.js'
-import markdown from './rules/markdown.js'
 import tailwindcss from './rules/tailwindcss.js'
 
 const woodawn = (...args) => {
@@ -13,7 +12,6 @@ const woodawn = (...args) => {
     base,
     vue,
     nuxt,
-    markdown,
     tailwindcss,
     ...args,
   )
