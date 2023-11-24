@@ -1,5 +1,4 @@
-export default [{
-  files: ['**/*.md'],
-  rules: {
+export default [
+  {
   },
-}]
+]

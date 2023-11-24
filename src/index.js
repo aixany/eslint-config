@@ -7,9 +7,7 @@ import tailwindcss from './rules/tailwindcss.js'
 
 const woodawn = (...args) => {
   return antfu(
-    {
-      markdown: true,
-    }, // This must be the first argument
+    {}, // This must be the first argument
     // From the second arguments they are ESLint Flat Configs
     // you can have multiple configs
     base,
