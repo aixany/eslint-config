@@ -1,0 +1,37 @@
+{
+  "name": "@woodawn/eslint-config",
+  "type": "module",
+  "version": "0.0.1",
+  "packageManager": "pnpm@8.10.5",
+  "description": "",
+  "author": "Stefano Bartoletti (https://github.com/stefanobartoletti/)",
+  "license": "MIT",
+  "repository": "woodawn/eslint-config",
+  "keywords": [
+    "eslint",
+    "eslint-config",
+    "tailwind"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  },
+  "main": "./src/index.js",
+  "module": "./src/index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "preview": "eslint-flat-config-viewer"
+  },
+  "peerDependencies": {
+    "eslint": "8.x"
+  },
+  "dependencies": {
+    "@antfu/eslint-config": "^2.1.0",
+    "eslint-plugin-tailwindcss": "^3.13.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.54.0",
+    "eslint-flat-config-viewer": "^0.1.3"
+  }
+}
