@@ -1,3 +1,3 @@
-import {nuxt, tailwind, woodawn} from "./src/index.js";
+import { nuxt, tailwind, woodawn } from './src/index.js'
 
 export default woodawn(nuxt, tailwind, {})
