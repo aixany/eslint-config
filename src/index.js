@@ -18,7 +18,9 @@ const woodawn = (options, ...eslintConfig) => {
   }
 
   return antfu(
-    {}, // This must be the first argument
+    {
+      gitignore: false, // 忽略gitignore
+    }, // This must be the first argument
     // From the second arguments they are ESLint Flat Configs
     // you can have multiple configs
     style,
