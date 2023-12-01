@@ -1,8 +1,7 @@
 {
   "name": "@woodawn/eslint-config",
   "type": "module",
-  "version": "0.0.1",
-  "packageManager": "pnpm@8.10.5",
+  "version": "0.0.2",
   "description": "",
   "author": "",
   "license": "MIT",
