@@ -6,6 +6,9 @@ export default [
       'style/function-call-spacing': ['error', 'never'],
       'node/prefer-global/process': 'off',
       'antfu/top-level-function': 'off',
+      'no-console': ['error', {
+        allow: ['warn', 'error'],
+      }],
     },
   },
 ]
