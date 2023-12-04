@@ -6,4 +6,7 @@ export default [
   ...compat.config({
     extends: ['plugin:tailwindcss/recommended'],
   }),
+  {
+    'tailwindcss/no-custom-classname': 'off',
+  },
 ]
