@@ -7,6 +7,7 @@ export default [
     extends: ['plugin:tailwindcss/recommended'],
   }),
   {
+    name: 'woodawn:style',
     rules: {
       'tailwindcss/no-custom-classname': 'off',
     },
