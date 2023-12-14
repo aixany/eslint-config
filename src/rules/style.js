@@ -7,6 +7,8 @@ export default [
     extends: ['plugin:tailwindcss/recommended'],
   }),
   {
-    'tailwindcss/no-custom-classname': 'off',
+    rules: {
+      'tailwindcss/no-custom-classname': 'off',
+    },
   },
 ]
