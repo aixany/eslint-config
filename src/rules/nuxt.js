@@ -4,6 +4,7 @@ export default [
 
   // Nuxt can use auto-imports, eslint should not throw errors for undefined variables.
   {
+    name: 'woodawn:nuxt-base',
     files: ['**/*.{js,ts,jsx,tsx,cts,vue}'],
     rules: {
       'no-undef': 'off',
@@ -12,6 +13,7 @@ export default [
   {
     // Include typescript eslint rules in *.vue files
     // https://github.com/typescript-eslint/typescript-eslint/blob/main/packages/eslint-plugin/src/configs/eslint-recommended.ts
+    name: 'woodawn:nuxt',
     files: ['*.vue'],
     rules: {
       'constructor-super': 'off', // ts(2335) & ts(2377)
