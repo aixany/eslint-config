@@ -5,7 +5,7 @@ import script from './rules/script.js'
 import vue from './rules/vue.js'
 import nuxt from './rules/nuxt.js'
 
-const woodawn = (options, ...eslintConfig) => {
+export default (options, ...eslintConfig) => {
   const rules = []
 
   // 是否是vue项目
@@ -31,5 +31,3 @@ const woodawn = (options, ...eslintConfig) => {
     ...eslintConfig,
   )
 }
-
-export default woodawn

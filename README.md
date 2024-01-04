@@ -6,7 +6,7 @@ https://docs.npmjs.com/cli/v10/configuring-npm/package-json#local-paths
 
 ```json
 {
-  "@woodawn/eslint-config": "github:woodawn/eslint-config"
+  "@aixany/eslint-config": "github:aixany/eslint-config"
 }
 ```
 

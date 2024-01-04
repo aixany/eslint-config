@@ -1,3 +1,3 @@
-import woodawn from './src/index.js'
+import lintAny from './src/index.js'
 
-export default woodawn({})
+export default lintAny({})
